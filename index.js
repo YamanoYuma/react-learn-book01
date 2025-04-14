@@ -23,3 +23,14 @@ const callTakemurasan = nameArr.map((name) => {
 })
 
 console.log(callTakemurasan);
+
+// 三項演算子
+const val1 = 1 > 0 ? "trueです" : "falseです";
+console.log(val1);
+
+const printFormattedNum = (num) => {
+  const formattedNum = typeof num === 'number' ? num.toLocaleString() : "数値を入力して下さい";
+  console.log(formattedNum);
+}
+printFormattedNum(200);
+printFormattedNum("200");
