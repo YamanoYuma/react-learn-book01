@@ -34,3 +34,13 @@ const printFormattedNum = (num) => {
 }
 printFormattedNum(200);
 printFormattedNum("200");
+
+
+const divEl = document.createElement("div");
+const pEl = document.createElement("p");
+const h2El = document.createElement("h2");
+
+divEl.appendChild(h2El);
+divEl.appendChild(pEl);
+
+console.log(divEl);
